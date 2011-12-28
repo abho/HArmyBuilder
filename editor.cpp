@@ -28,7 +28,7 @@ void Editor::on_pushButtonRace_clicked()
     if( !ui->lineEditRace->text().isEmpty()){
         qDebug() << Q_FUNC_INFO << mDB.addRace(ui->lineEditRace->text());
 
-        mRaceModel.query()
+        //mRaceModel.query()
     }
 }
 
